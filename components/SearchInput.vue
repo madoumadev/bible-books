@@ -1,9 +1,11 @@
 <script>
-import {useDebounce} from '../../../utils/useDebounce'
+
+import {useDebounce} from "../utils/getDebounce";
 
 export default {
   name: 'SearchInput',
   props: {
+    modelValue: String,
     propName: {
       type: Number,
       default: 0
@@ -36,5 +38,5 @@ export default {
 </script>
 
 <template>
-  <input type="search" class="wfg-input" v-model="searchQuery" :placeholder="$t('common.search')"/>
+  <input type="search" placeholder="Rechercher..." class="rounded-lg bg-white border border-gray-300  text-gray-900 text-sm block w-full px-4 py-3 focus:outline-primary" v-model="searchQuery"/>
 </template>
