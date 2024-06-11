@@ -3,7 +3,7 @@
 
     <div class="mb-4 bg-white p-6 rounded-md">
       Cette application est une ressource précieuse pour quiconque souhaite
-      étudier la Bible en français et en russe, offrant un moyen accessible
+      étudier la Bible en français, englais et russe, offrant un moyen accessible
       et efficace de référencer les noms des livres de la Bible dans les deux langues.
     </div>
 
@@ -17,6 +17,7 @@
       <div v-for="book in books" :key="book.french" class="p-4 bg-white border rounded-md shadow">
         <h2 class="text-xl font-semibold">{{ book.french }}</h2>
         <p class="text-gray-600">{{ book.russian }}</p>
+        <p class="text-gray-600">{{ book.english }}</p>
       </div>
     </div>
   </div>
