@@ -1,6 +1,6 @@
 ### Bible Books
 
-This Nuxt.js application displays the names of all the books of the Bible in French along with their corresponding translations in Russian. The application is designed to provide a simple and intuitive interface for users who are interested in exploring the Bible's contents in both languages.
+This Nuxt.js application displays the names of all the books of the Bible in French along with their corresponding translations in Russian and English. The application is designed to provide a simple and intuitive interface for users who are interested in exploring the Bible's contents in both languages.
 
 #### Key Features:
 
