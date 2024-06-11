@@ -1,70 +1,58 @@
-# bible-books
+### Bible Books
 
-## Build Setup
+This Nuxt.js application displays the names of all the books of the Bible in French along with their corresponding translations in Russian. The application is designed to provide a simple and intuitive interface for users who are interested in exploring the Bible's contents in both languages.
 
-```bash
-# install dependencies
-$ yarn install
+#### Key Features:
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+- **Bilingual Display**: Lists all the books of the Bible with names in French and their Russian translations.
+- **Responsive Design**: Utilizes Tailwind CSS to ensure a clean and responsive design that works well on both desktop and mobile devices.
+- **Progressive Web App (PWA)**: Converts the application into a PWA using Nuxt.js PWA module, providing offline access and a more app-like experience.
+- **Easy Deployment**: Deployed on Netlify for seamless continuous deployment and hosting, ensuring high availability and performance.
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+#### Technology Stack:
 
-# generate static project
-$ yarn generate
-```
+- **Nuxt.js**: A powerful Vue.js framework that simplifies the development of universal or single-page Vue applications.
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs without leaving your HTML.
+- **Netlify**: A platform for deploying and hosting static websites, offering continuous deployment from Git repositories and serverless functions.
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+This application serves as a useful tool for anyone looking to study the Bible in French and Russian, providing an easy-to-navigate interface and fast performance.
 
-## Special Directories
+### Bible Books Application - Usage Guide
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+The Bible Books Application is designed to facilitate easy reference and study of the Bible by providing the names of all Bible books in both French and Russian. Here's how you can make the most out of this application:
 
-### `assets`
+#### Who Can Use This Application?
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+- **Bible Scholars and Students**: Ideal for those who are studying the Bible in a multilingual context, specifically French and Russian.
+- **Clergy and Religious Educators**: Useful for clergy, Sunday school teachers, and others involved in religious education to reference and teach Bible books in both languages.
+- **Bilingual Individuals**: Perfect for individuals who are fluent in or learning both French and Russian, and who wish to deepen their understanding of biblical texts.
+- **Translators**: Beneficial for translators working on religious texts, providing quick access to book names in both languages.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+#### How to Use This Application:
 
-### `components`
+1. **Navigating the Interface**:
+  - The application presents a clean and straightforward interface.
+  - Bible books are listed in a grid format, making it easy to browse through them.
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+2. **Viewing Book Names**:
+  - Each entry in the list displays the book name in French, followed by the Russian translation.
+  - This bilingual display helps users quickly identify and cross-reference books in both languages.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+3. **Responsive Design**:
+  - The application is designed to be fully responsive, ensuring it looks great and functions well on any device, whether you are using a desktop computer, tablet, or smartphone.
 
-### `layouts`
+4. **Offline Access**:
+  - As a Progressive Web App (PWA), the application can be installed on your device and accessed even when you are offline. This feature is especially useful for users who may not always have internet access.
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+5. **Educational and Reference Tool**:
+  - The application serves as a handy educational tool for teaching and learning the names of the Bible books in both French and Russian.
+  - It can also be used as a quick reference guide during Bible study sessions, sermons, or religious classes.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+#### Benefits of Using This Application:
 
+- **Ease of Use**: The intuitive design ensures that users can easily find the information they need without any hassle.
+- **Multilingual Support**: Facilitates a better understanding and appreciation of the Bible by providing translations in two widely spoken languages.
+- **Accessibility**: The PWA functionality ensures that users can access the app anytime and anywhere, even without an internet connection.
+- **Educational Value**: Enhances learning experiences for students and educators by providing a bilingual reference tool.
 
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
-# bible-books
+This application is a valuable resource for anyone looking to study the Bible in French and Russian, offering an accessible and efficient way to reference the names of the Bible books in both languages.
