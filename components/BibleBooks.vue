@@ -1,6 +1,15 @@
 <template>
   <div class="container mx-auto py-8 px-4 md:px-0 min-h-screen">
+
+    <div class="mb-4 bg-white p-6 rounded-md">
+      Cette application est une ressource précieuse pour quiconque souhaite
+      étudier la Bible en français et en russe, offrant un moyen accessible
+      et efficace de référencer les noms des livres de la Bible dans les deux langues.
+    </div>
+
     <h1 class="text-3xl font-bold mb-6">Les livres de la Bible</h1>
+
+
 
     <search-input @onSearch="getQuery"  class="mb-4"/>
 
